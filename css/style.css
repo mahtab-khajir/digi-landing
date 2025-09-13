@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styles */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* header */
+
+header{
+      background-color: #f8f8f8;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero{
+      text-align: center;
+    padding: 4rem 2rem;
+    background-color: #e3e3e3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+}
