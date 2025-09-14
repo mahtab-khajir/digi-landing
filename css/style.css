@@ -334,8 +334,53 @@ main {
   height: 40px;
   z-index: 1;
 }
-.swiper-pagination-bullet-active {
-  background-color: #fff;
+.pagination-style {
+  width: 4px;
+  height: 4px;
+}
+.heroSwiper .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #fff !important;
+  width: 16px !important;
+  height: 6px !important;
+  border-radius: 9999px !important;
+}
+.heroSwiper .swiper-pagination .swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  background: #0c0c0c;
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  width: 88%;
+}
+
+.services a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  text-decoration: none;
+}
+.services a img {
+  width: 52px;
+  height: 52px;
+}
+.services a span {
+  font-size: 11px;
+  color: rgb(63, 64, 100);
+  font-weight: 700;
+  margin-top: 4px;
+  padding: 0 16px;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 /* Footer */
