@@ -383,6 +383,125 @@ main {
   line-height: 1.5rem;
 }
 
+/* special offer swiper  */
+
+.special-offer {
+  width: 88%;
+  margin: auto;
+  height: 294px;
+  background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+  border-radius: 16px;
+  padding: 16px 0;
+}
+
+.special-offer .swiper-wrapper div:nth-child(2){
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.special-offer .swiper-wrapper div:last-child{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.swiperSlide-special {
+  height: 100%;
+}
+
+.swiperSlide-special {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin: 0 20px !important;
+  width: 126px !important;
+  height: 254px;
+}
+.amazing {
+  width: 88px;
+  height: 88px;
+}
+.swiperSlide-special a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.swiperSlide-special div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px;
+  gap: 8px;
+  width: 160px !important;
+}
+.product-card a {
+  text-decoration: none;
+}
+.product-info {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.product-card a h5{
+  color: rgb(98, 102, 109);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3rem;
+}
+.product-card a img {
+  width: 132px;
+  height: 132px;
+}
+.product-price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "IranYekan";
+}
+
+.price{
+  font-size: 14px;
+  color: rgb(63, 64, 100);
+}
+.discount{
+  color: #fff;
+  background-color: #d32f2f;
+  font-size: 12px;
+  padding:  0 4px;
+  border-radius: 16px;
+}
+.prev-price{
+  text-align: left;
+  font-size: 12px;
+  color: rgb(192, 194, 197);
+  text-decoration: line-through;
+}
+
+/* 4 posters section */
+.posters{
+  display: flex;
+  flex-direction: row;
+  width: 88%;
+  justify-content: center;
+  align-items: center;
+  height: 241.5px;
+  gap: 16px;
+}
+.posters img{
+width: 322px;
+border-radius: 16px;
+}
+
 /* Footer */
 footer {
   text-align: center;
